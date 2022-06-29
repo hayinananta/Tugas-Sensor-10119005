@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_identitas">
+
+    <fragment
+        android:id="@+id/navigation_lokasi"
+        android:name="com.example.a10119005_sensor.ui.lokasi.LokasiFragment"
+        android:label="Lokasi"
+        tools:layout="@layout/fragment_lokasi" />
+
+    <fragment
+        android:id="@+id/navigation_identitas"
+        android:name="com.example.a10119005_sensor.ui.identitas.IdentitasFragment"
+        android:label="Identitas"
+        tools:layout="@layout/fragment_identitas" />
+
+    <fragment
+        android:id="@+id/restoran"
+        android:name="com.example.a10119005_sensor.ui.restoran.RestoranFragment"
+        android:label="Restoran"
+        tools:layout="@layout/fragment_restoran" />
+
+    <fragment
+        android:id="@+id/about"
+        android:name="com.example.a10119005_sensor.ui.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+
+</navigation>

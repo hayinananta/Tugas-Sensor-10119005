@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_identitas"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Identitas" />
+
+    <item
+        android:id="@+id/navigation_lokasi"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="Lokasi" />
+
+    <item
+        android:id="@+id/restoran"
+        android:icon="@drawable/ic_baseline_restaurant_24"
+        android:title="Restoran" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_baseline_person_pin_24"
+        android:title="About" />
+
+</menu>
